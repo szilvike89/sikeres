@@ -1,0 +1,71 @@
+.elso{
+    width: 200px;
+    float: left;
+    padding: 20px;
+    text-align: left;
+    border: solid 3px red;
+    border-radius: 20px;
+    box-shadow: 3px 3px 12px red;
+}
+.elso li{
+    list-style-image: url(icon_bad.png);
+}
+.masodik{
+    width: 200px;
+    float: right;
+    padding: 20px;
+    text-align: left;
+    border: solid 3px green;
+    border-radius: 20px;
+    box-shadow: 3px 3px 12px green;
+}
+.masodik li{
+    list-style-image: url(icon_good.png);
+}
+.egesz{
+    width: 700px;
+    background-color: white;
+    display: inline-block;
+}
+.kep{
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    background-color: blue;
+    color: yellow;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px #cfb7a2;
+    width: 250px;
+    transform: rotate(5deg);
+}
+.nyilak{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-bottom: -50%;
+    margin-right: -50%;
+
+}
+.nyilag img{
+    width: 20%;
+}
+body{
+    background-color: aqua;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+h1{
+    text-transform: lowercase;
+    font-size: 24px;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
