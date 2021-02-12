@@ -10,7 +10,7 @@
     margin: 10px;
 }
 .elso li{
-    list-style-image: url(icon_bad.png);
+    list-style-image: url(kepek/icon_bad.png);
 }
 .masodik{
     width: 200px;
@@ -23,7 +23,7 @@
     margin: 10px;
 }
 .masodik li{
-    list-style-image: url(icon_good.png);
+    list-style-image: url(kepek/icon_good.png);
 }
 .egesz{
     width: 700px;
